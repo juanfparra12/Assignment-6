@@ -15,25 +15,26 @@
           <!-- Add a ui-sref property to the anchor tags to allow navigation between different states -->
           <nav>
             <ul class="nav nav-pills">
-              <li><a ui-sref="listings.list">List View</a></li>
-              <li><a ui-sref="listings.map">Map View</a></li>
-              <li><a ui-sref="listings.create">Create New Listing</a></li>
+				<li><a ui-sref="listings.list">List View</a></li>
+				<li><a ui-sref="listings.map">Map View</a></li>
+				<li><a ui-sref="listings.create">Create New Listing</a></li>
             </ul>
           </nav>
         </div>
       </div>
       <div ui-view></div>
     </div>
-    <!-- Dependencies -->
-    <script src="/public/lib/jquery/dist/jquery.min.js"></script>
-    <script src="/public/lib/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="/public/lib/angular/angular.js"></script>
-    <script src="/public/lib/angular-ui-router/release/angular-ui-router.js"></script>
-    <script src="/public/lib/angular-bootstrap/ui-bootstrap.js"></script>
-    <script src="/public/lib/lodash/dist/lodash.min.js"></script>
-    <script src="/public/lib/angular-simple-logger/dist/angular-simple-logger.min.js"></script>
-    <script src='//maps.googleapis.com/maps/api/js?sensor=false'></script>
-    <script src="/public/lib/angular-google-maps/dist/angular-google-maps.min.js"></script>
+ <!-- Dependencies -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.3/angular-ui-router.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/2.5.0/ui-bootstrap-tpls.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular-simple-logger/0.1.7/angular-simple-logger.min.js"></script>
+<!--<script src='//maps.googleapis.com/maps/api/js?sensor=false'></script>-->
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular-google-maps/2.4.1/angular-google-maps.min.js"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?keyAIzaSyAF3jl5UgQSjmRuSTJ_lDx7cutIp-fA0Tk&callback=initMap" type="text/javascript"></script>
 
     <!-- Application Source Code -->
     <script src="app/app.js"></script>
